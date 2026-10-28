@@ -43,6 +43,8 @@ The objectives behind the project:
 
 Each choice matches the actual constraints of the hosting environment rather than technology preference for its own sake.
 
+See [docs/architecture.md](docs/architecture.md) for diagrams of the runtime architecture and the build/test/deployment workflow.
+
 ## 4. QA Strategy, Test Automation & Quality Checks
 
 - **Browser regression tests (Playwright):** verify key pages and interactive features behave correctly, run against local servers in CI so results are deterministic.
