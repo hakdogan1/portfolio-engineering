@@ -1,6 +1,20 @@
 # Hasan Akdogan — Portfolio Engineering
 
-A personal engineering portfolio built and operated like a real production system — not just a static resume page, but a working project with its own test suite, CI pipeline, and a custom-built, safety-first deployment process.
+**A personal engineering portfolio built and operated like a real production system** — a working project with its own test suite, CI pipeline, and a custom-built, safety-first deployment process, documented here as a technical case study rather than a static resume page.
+
+`PHP` `TypeScript` `Vite` `Playwright` `Python` `GitHub Actions`
+
+**Live site:** [www.hakdogan.com](https://www.hakdogan.com/) · **QA Handbook:** [/qa-handbook](https://www.hakdogan.com/qa-handbook/) · **Test Automation:** [/test-automation](https://www.hakdogan.com/test-automation/) · **QA Practice:** [qapractice.hakdogan.com](https://qapractice.hakdogan.com/)
+
+### At a Glance
+
+| | |
+|---|---|
+| Deployment engine test suite | 43 targeted safeguard tests |
+| Isolated release rehearsal | 168 files exercised, including interrupted-deployment recovery |
+| First production deployment | Completed and verified — October 28, 2026 |
+
+---
 
 ## 1. Project Purpose & Engineering Objectives
 
