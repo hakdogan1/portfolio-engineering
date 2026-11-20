@@ -1,103 +1,170 @@
-# GitHub Portfolio — Public Repository Showcase Modernization
+# GitHub Portfolio — Professional Public Repository Showcase
 
-## 1. Amaç
+## 1. Objective
 
-GitHub hesabım `hakdogan1` üzerinde bulunan public repository'leri uluslararası QA Automation Engineer / SDET iş başvurularında kullanılabilecek profesyonel bir proje vitrini haline getir.
+Transform my public GitHub repositories into professional, visually engaging engineering case studies suitable for international **QA Automation Engineer, QA Engineer, and SDET** job applications.
 
-GitHub profilini ziyaret eden bir kişi ilk 30 saniyede şunları anlayabilmeli:
+**GitHub account:** `hakdogan1`
 
-- Hangi projeleri geliştirdiğimi
-- Projelerin ne işe yaradığını
-- Hangi teknolojileri kullandığımı
-- Hangi mühendislik problemlerini çözdüğümü
-- Test otomasyonu ve QA çalışmalarımı
-- CI/CD, deployment ve kalite güvence yaklaşımımı
-- Çalışan uygulamaları nereden inceleyebileceğini
+A recruiter, engineering manager, or senior QA engineer visiting my GitHub profile should understand within 30 seconds:
 
-Public repository'ler birer **engineering case study** niteliğinde olmalı.
+- What I have built and why
+- What problems the projects solve
+- Which technologies I actually used
+- My personal engineering contributions
+- My testing and automation experience
+- My CI/CD and deployment practices
+- Where to explore the working applications
+- What technical evidence supports my claims
 
-Private uygulama kaynak kodlarını public yapma.
+These repositories should demonstrate practical engineering competence rather than simply list technologies or repeat my résumé.
 
-## 2. Repository kapsamı
+The public repositories are **engineering case studies**, not public copies of the private application source code.
 
-GitHub hesabı: `hakdogan1`
+All README documentation must be written in professional, clear English.
 
-| Mevcut repository | Önerilen isim |
+---
+
+## 2. Repository Scope
+
+GitHub account: `hakdogan1`
+
+| Current Repository | Proposed Name |
 |---|---|
 | `qa-practice-platform` | `qa-testing-platform-showcase` |
 | `portfolio-engineering` | `qa-portfolio-engineering` |
-| `hakdogan1` | Aynı kalacak |
+| `hakdogan1` | Keep unchanged |
 
-Önerilen isimleri GitHub üzerinde kontrol et. İsimlerin uygunluğunu, açıklayıcılığını ve mevcut bağlantılara etkisini değerlendir.
+First, inspect the existing repositories and evaluate the proposed names.
 
-**Henüz repository isimlerini değiştirme.** Önce değerlendirme ve etki analizi hazırla.
+Check naming clarity, availability, existing links, GitHub redirects, and possible impacts on other projects.
 
-## 3. QA Practice README
+Do not rename any repository without explicit approval.
 
-Repository: `hakdogan1/qa-practice-platform`
+### Suggested Repository Descriptions
 
-Canlı uygulama: https://qapractice.hakdogan.com/
+**QA Practice**
 
-Mevcut README oldukça kapsamlıdır. Teknik içeriği kaybetmeden daha profesyonel, görsel destekli ve kolay anlaşılır hale getir.
+Interactive QA testing platform featuring UI testing, bug hunting, locator challenges, API simulations, and Playwright/Selenium learning exercises.
 
-README dili İngilizce olacak.
+**Portfolio Engineering**
 
-### Korunacak teknik içerikler
+QA engineering portfolio case study featuring interactive testing labs, Playwright regression testing, CI/CD, and secure production deployment.
 
-- Next.js 15, React 19, TypeScript, Tailwind CSS v4
-- 27 UI modülü ve 10 form senaryosu
-- 24 çok adımlı test senaryosu
-- 15 kasıtlı hata içeren Bug Playground
-- 20 locator dersi
-- 50 locator challenge
-- 12 iframe / Shadow DOM senaryosu
-- API Testing Lab ve simüle REST servisleri
-- Fault Injection / QA Test Mode
-- Playwright + TypeScript
-- Selenium + Java
-- Framework blueprint
-- Mimari kararlar
-- Test stratejisi
-- Teknik sorunlar ve çözümler
-- Kişisel katkılarım
+Recommend appropriate GitHub Topics for both repositories.
 
-Bu sayıları mevcut kaynaklarla yeniden doğrula. Farklılık varsa raporla.
+Do not change repository metadata until approved.
 
-### Test sonuçları konusunda doğruluk
+---
 
-Mevcut dokümantasyonda 21 Node tabanlı doğrulama script'i bulunuyor.
+## 3. QA Practice — README Modernization
 
-Bunları gerçek Playwright E2E testleri olarak gösterme.
+**Repository:** `hakdogan1/qa-practice-platform`
 
-Script Practice uygulamasındaki simülasyonu gerçek Playwright veya Selenium driver çalıştırması olarak tanıtma.
+**Live application:** https://qapractice.hakdogan.com/
 
-Çalıştırılmamış testlere PASS yazma.
+Inspect the existing README and technical documentation before making changes.
 
-Planlanan otomasyon framework'ünü tamamlanmış gibi gösterme.
+The current README contains substantial engineering information. Preserve its technical depth while improving readability, visual presentation, navigation, and professional impact.
 
-## 4. QA Practice ekran görüntüleri
+The finished README must be a complete, production-quality GitHub document, not a short introduction or partial replacement.
 
-Gerçek production sitesinden aşağıdaki ekran görüntülerini al:
+### Required README Structure
 
-1. Ana sayfa — desktop
+1. Project title and concise value proposition
+2. Live demo links
+3. Actual application screenshot
+4. Project overview and engineering objectives
+5. Key features and interactive demonstrations
+6. Technical stack
+7. Architecture overview and diagrams
+8. Testing capabilities
+9. Automation framework concepts
+10. Quality engineering decisions
+11. Test strategy and verified evidence
+12. Engineering challenges and solutions
+13. My role and contributions
+14. Current status and future improvements
+15. Related projects and contact links
+
+### Preserve and Verify Existing Capabilities
+
+The current documentation describes:
+
+- Next.js 15, React 19, TypeScript, and Tailwind CSS v4
+- 27 UI testing modules
+- 10 form scenarios
+- 24 multi-step user-flow scenarios
+- 15 deliberately seeded defects
+- 20 locator lessons
+- 50 locator challenges
+- 12 iframe and Shadow DOM scenarios
+- Simulated API testing
+- Fault injection and QA Test Mode
+- Playwright + TypeScript learning materials
+- Selenium + Java learning materials
+- Automation framework blueprints
+- Educational browser-based script interpretation
+- 21 Node-based validation scripts
+
+Verify these details against available evidence before presenting them as current facts.
+
+Do not invent features, test results, usage statistics, or implementation details.
+
+### Technical Accuracy Requirements
+
+Clearly distinguish:
+
+- Implemented functionality from planned work
+- Node-based validation scripts from real browser E2E tests
+- Simulated API responses from real backend operations
+- Educational script interpretation from actual Playwright or Selenium execution
+- Previously recorded test results from newly executed tests
+
+Do not describe the planned independent Playwright framework as completed.
+
+---
+
+## 4. QA Practice — Real Application Screenshots
+
+Capture authentic screenshots directly from:
+
+https://qapractice.hakdogan.com/
+
+Required screenshots:
+
+1. Homepage — desktop
 2. UI Elements
 3. Bug Playground
 4. Locator Practice Hub
 5. Automation Framework
-6. Ana sayfa — mobile
+6. Homepage — mobile
 
-Önerilen viewport değerleri:
+Suggested browser viewport sizes:
 
-- Desktop: 1440×900
-- Mobile: 390×844
+- Desktop: 1440 × 900
+- Mobile: 390 × 844
 
-Görselleri WebP formatına optimize et.
+Use Playwright or another suitable browser automation method to capture screenshots.
 
-Dosya konumu:
+Ensure each screenshot accurately represents the corresponding application page.
+
+### Image Requirements
+
+- Use genuine application screenshots.
+- Do not generate fictional UI screenshots.
+- Do not expose personal information, session data, tokens, credentials, or private configuration.
+- Prefer optimized WebP images.
+- Maintain readable text and appropriate image quality.
+- Avoid unnecessarily large files.
+- Include descriptive alternative text.
+- Use consistent image dimensions where appropriate.
+
+Store images in:
 
 `docs/screenshots/`
 
-Örnek dosyalar:
+Suggested filenames:
 
 - `homepage-desktop.webp`
 - `ui-elements.webp`
@@ -106,27 +173,39 @@ Dosya konumu:
 - `framework.webp`
 - `homepage-mobile.webp`
 
-Ekran görüntülerinin gerçekten ilgili sayfalara ait olduğunu kontrol et.
+### README Image Placement
 
-Görselde kişisel bilgi, oturum verisi, erişim anahtarı veya hassas içerik bulunmamalı.
+Place the homepage screenshot near the top of the README.
 
-README'ye açıklayıcı alt metinlerle ekle.
+Embed other screenshots beside the corresponding feature descriptions.
 
-Görselleri sadece en alta toplama; ilgili özellik bölümlerine yerleştir.
+Do not place all screenshots at the bottom without context.
 
-Ana sayfa görüntüsü README'nin ilk ekranında bulunmalı.
+Use relative Markdown paths so the images render correctly in GitHub.
 
-## 5. Portfolio Engineering README
+Example:
 
-Repository: `hakdogan1/portfolio-engineering`
+```markdown
+![QA Practice homepage](docs/screenshots/homepage-desktop.webp)
+```
 
-Canlı site: https://www.hakdogan.com/
+If screenshot capture is unavailable, report the blocker rather than substituting generated or unrelated images.
 
-Bu repository benim QA Engineering portföy web sitemin teknik case study dokümantasyonunu içeriyor.
+---
 
-Mevcut README'yi incele ve geliştirilmiş İngilizce sürümünü hazırla.
+## 5. Portfolio Engineering — README Modernization
 
-Özellikle şu alanları koru ve vurgula:
+**Repository:** `hakdogan1/portfolio-engineering`
+
+**Live website:** https://www.hakdogan.com/
+
+This repository documents the engineering behind my personal QA portfolio website.
+
+The README should explain that the website is more than a résumé or static landing page.
+
+It demonstrates practical quality engineering, interactive testing examples, automation concepts, CI/CD, deployment safety, and software maintenance.
+
+### Preserve and Highlight
 
 - PHP
 - TypeScript
@@ -134,139 +213,317 @@ Mevcut README'yi incele ve geliştirilmiş İngilizce sürümünü hazırla.
 - Playwright
 - Python
 - GitHub Actions
-- Interactive QA Labs
+- Interactive QA demonstrations
 - QA Handbook
-- Test Automation
-- CI/CD
-- Güvenli production deployment
-- SHA-256 dosya bütünlüğü kontrolü
-- Backup ve rollback
-- 43 deployment safeguard testi
-- İzole release rehearsal
-- Release verification
+- Test Automation content
+- CI/CD pipelines
+- Deployment verification
+- SHA-256 file integrity checks
+- Backup and rollback mechanisms
+- 43 documented deployment safeguard tests
+- Isolated release rehearsal
+- Production release controls
 
-Tüm test ve production iddialarını mevcut kanıtlarla karşılaştır.
+Verify all technical claims and distinguish previously documented results from current verification.
 
-### Portfolio ekran görüntüleri
+### Required Screenshots
 
-Canlı siteden uygun görüntüler hazırla:
+Capture authentic screenshots of:
 
-1. Portfolio ana sayfa — desktop
+1. Portfolio homepage — desktop
 2. QA Handbook
 3. Test Automation
-4. Interactive QA Lab
-5. Portfolio ana sayfa — mobile
+4. Interactive QA demonstrations
+5. Portfolio homepage — mobile
 
-Gerçek sitede bulunmayan ekran veya özelliği üretme.
+Store optimized images in:
 
-Görselleri `docs/screenshots/` altında sakla.
+`docs/screenshots/`
+
+Embed them in appropriate README sections with clear explanations.
+
+Do not create screenshots for features that are not available on the live website.
+
+### Engineering Focus
+
+The README should clearly describe:
+
+- The problem being solved
+- Technical architecture
+- Design decisions
+- Testing methodology
+- CI/CD implementation
+- Deployment safeguards
+- Challenges and solutions
+- Evidence of implemented functionality
+- My individual engineering contributions
+
+Preserve existing architecture documents and valid historical evidence.
+
+---
 
 ## 6. GitHub Profile README
 
-Repository: `hakdogan1/hakdogan1`
+**Repository:** `hakdogan1/hakdogan1`
 
-Profil README'sini güncelle.
+Modernize the existing GitHub profile README while preserving its QA Automation Engineer identity.
 
-Öne çıkan projeler bölümünde QA Practice ve Portfolio Engineering repolarına görünür bağlantılar ekle.
+Create a clear, visually balanced **Featured Projects** section.
 
-Her proje için:
+Feature both public engineering case studies.
 
-- Proje adı
-- Tek cümlelik açıklama
-- Kullanılan temel teknolojiler
-- Live Demo
-- GitHub repository
-- Uygunsa küçük ekran görüntüsü
+For each project, include:
 
-Profilin mevcut QA Automation Engineer odağını koru.
+- Project title
+- Short project description
+- Core technologies
+- Live demo
+- GitHub repository link
+- Suitable screenshot or visual preview when available
 
-Teknoloji listesine gerçekte kullanmadığım araçları ekleme.
+The profile should emphasize my actual engineering experience:
 
-Profilde gereksiz animasyon, aşırı badge veya kalabalık görsel kullanma.
+**Primary focus**
+- Playwright
+- TypeScript
+- Manual and automated testing
+- Page Object Model
+- Smoke and regression testing
+- Quality engineering
 
-## 7. Repository Description ve Topics
+**Additional experience**
+- Selenium WebDriver
+- Java
+- REST API testing
+- SQL and PostgreSQL
+- Jenkins
+- GitHub Actions
+- Jira
 
-GitHub repository açıklamalarını da profesyonel hale getirmek için öneri hazırla.
+Do not exaggerate experience or include technologies that I have not actually used.
 
-QA Practice için önerilen description:
+Avoid excessive badges, animations, unrelated graphics, or unnecessarily long sections.
 
-"Interactive QA testing platform featuring UI testing, bug hunting, locator challenges, API simulations, and Playwright/Selenium learning exercises."
+The profile should remain readable on both desktop and mobile.
 
-Portfolio Engineering için önerilen description:
+---
 
-"QA engineering portfolio case study featuring interactive testing labs, Playwright regression testing, CI/CD, and secure production deployment."
+## 7. Repository Naming and Link Impact Analysis
 
-Uygun GitHub Topics öner.
+Evaluate the following proposed renames:
 
-Description ve Topics değişikliklerini onay almadan uygulama.
+- `qa-practice-platform` → `qa-testing-platform-showcase`
+- `portfolio-engineering` → `qa-portfolio-engineering`
 
-## 8. Teknik ve güvenlik kuralları
+Before recommending or applying changes:
 
-- Private repository'leri public yapma.
-- Private kaynak kodunu public repository'lere kopyalama.
-- Parola, API key, token veya private configuration ekleme.
-- Production uygulamalarında değişiklik yapma.
-- Production deployment gerçekleştirme.
-- Mevcut mimari belgelerini silme.
-- Mevcut README içeriğini kontrol etmeden değiştirme.
-- Doğrulanamayan teknik iddiaları gerçekmiş gibi sunma.
-- Eski bağlantıların yeni repository isimlerine etkisini analiz et.
-- Gereksiz dosya ve büyük boyutlu görsel ekleme.
-- Public repo işlemlerini mümkünse ayrı feature branch'lerde hazırla.
-- Ana repository'lerin çalışma durumunu bozma.
-- Başka projelerin worktree'lerine dokunma.
+1. Confirm the destination names are available.
+2. Identify references to the existing repository URLs.
+3. Inspect README links and profile links.
+4. Identify external dependencies or workflows referencing repository names.
+5. Evaluate potential effects on GitHub Actions and integrations.
+6. Identify links on my portfolio website that may need updating.
+7. Recommend a safe migration order.
 
-## 9. Doğrulama
+Do not assume GitHub redirects eliminate every migration risk.
 
-Değişikliklerden sonra:
+Do not rename repositories automatically.
 
-- README Markdown bağlantılarını kontrol et.
-- Görsel yollarının doğru olduğunu doğrula.
-- Bozuk bağlantıları raporla.
-- Görsellerin GitHub üzerinde render edilebilir olduğunu kontrol et.
-- Dosya boyutlarını kontrol et.
-- İngilizce yazım ve teknik terminolojiyi gözden geçir.
-- README içindeki proje metriklerini kaynaklarla karşılaştır.
-- Mevcut teknik dokümantasyonun korunup korunmadığını denetle.
-- Private bilgilerin public içeriğe sızmadığını kontrol et.
+---
 
-Test sonuçlarını PASS / FAIL / SKIP olarak raporla.
+## 8. Repository Descriptions and Topics
 
-## 10. Çalışma ve onay sınırları
+Prepare professional descriptions and topic recommendations.
 
-Önce salt okunur inceleme yap.
+Suggested QA Practice topics:
 
-Mevcut branch, HEAD, Git durumu, README içerikleri ve repository yapılarını doğrula.
+`qa-engineering`, `software-testing`, `test-automation`, `playwright`, `typescript`, `qa-practice`, `bug-hunting`, `locator-strategies`
 
-Ardından yalnızca güvenli, izole çalışma alanlarında değişiklikleri hazırla.
+Suggested Portfolio Engineering topics:
 
-**Aşağıdaki işlemler için ayrıca açık onayımı al:**
+`qa-automation`, `portfolio`, `playwright`, `typescript`, `php`, `github-actions`, `ci-cd`, `quality-engineering`
+
+Use topics that accurately reflect the implemented project.
+
+Do not add misleading technology tags.
+
+---
+
+## 9. Security and Scope Restrictions
+
+The original application repositories are private.
+
+The public repositories are intended to showcase engineering work without revealing private implementation details.
+
+Strict requirements:
+
+- Do not change any private repository's visibility.
+- Do not copy private application source code into public repositories.
+- Do not expose passwords, tokens, API keys, credentials, or private configuration.
+- Do not publish sensitive infrastructure paths or server details.
+- Do not modify production applications.
+- Do not deploy anything.
+- Do not modify unrelated repositories or worktrees.
+- Do not overwrite existing work.
+- Do not delete valid technical documentation.
+- Do not invent test results or technical achievements.
+- Do not publish screenshots containing private information.
+
+Public README documentation may describe architecture, testing approaches, engineering decisions, and verified project capabilities without disclosing private implementation.
+
+---
+
+## 10. Safe Git Workflow
+
+Start with a read-only assessment.
+
+Verify:
+
+- Repository identity
+- Default branch
+- HEAD commit
+- Git working-tree status
+- Existing README files
+- Documentation structure
+- Current screenshots
+- Relevant workflows
+- Existing cross-repository links
+
+Preserve all existing changes.
+
+Prepare documentation improvements in isolated worktrees or appropriate feature branches where local access is available.
+
+Avoid editing unrelated source files.
+
+Do not make direct changes to the default branches.
+
+### Explicit Approval Required
+
+Do not perform any of the following without my separate, explicit approval:
 
 - Commit
 - Push
-- Pull Request oluşturma
+- Pull request creation
 - Merge
-- Repository yeniden adlandırma
-- Repository görünürlüğü değiştirme
+- Repository rename
+- Repository visibility change
 - Production deployment
 
-Bu işlemler için önceden verilmiş genel bir onay olduğunu varsayma.
+Do not interpret this task description as authorization for those operations.
 
-## 11. Beklenen sonuç
+---
 
-Çalışma tamamlandığında şu raporu sun:
+## 11. Validation Requirements
 
-1. İncelenen repository'ler
-2. Önerilen yeni repository isimleri
-3. Güncellenen README bölümleri
-4. Eklenen ekran görüntüleri
-5. Korunan teknik bilgiler
-6. Doğrulanan test sonuçları
-7. Bağlantı kontrol sonuçları
-8. Güvenlik incelemesi
-9. Git diff özeti
-10. Commit / Push / PR / Rename için onay bekleyen işlemler
+After preparing the changes, validate:
 
-**Hedef:** GitHub profilim, yalnızca teknolojileri listeleyen bir CV görünümünden çıkarak gerçek projeleri, mühendislik kararlarını ve QA Automation yetkinliğimi kanıtlayan profesyonel bir portföye dönüşsün.
+### README Quality
 
-Önce inceleme ve hazırlık aşamasını tamamla. Onayım olmadan GitHub üzerinde kalıcı değişiklik yapma.
+- Markdown syntax
+- Heading hierarchy
+- Table of contents
+- Internal anchors
+- Relative image paths
+- External links
+- English spelling and grammar
+- Technical terminology
+- Desktop and mobile readability
+
+### Screenshot Quality
+
+- Authenticity
+- Correct page correspondence
+- Image dimensions
+- File size
+- Readability
+- Sensitive information exposure
+- GitHub compatibility
+
+### Technical Accuracy
+
+- Documented technology stack
+- Feature counts
+- Architecture descriptions
+- Test coverage claims
+- CI/CD descriptions
+- Deployment evidence
+- Current versus historical status
+
+Report validation results using:
+
+**PASS / FAIL / SKIP**
+
+Provide reasons for every FAIL or SKIP.
+
+Do not mark unexecuted validation steps as PASS.
+
+---
+
+## 12. Execution Order
+
+Follow this sequence:
+
+### Phase 1 — Repository Assessment
+
+Inspect all three public repositories.
+
+Evaluate repository names, README quality, current assets, technical documentation, and cross-repository links.
+
+### Phase 2 — QA Practice
+
+Prepare the improved complete README.
+
+Capture and optimize real screenshots.
+
+Validate technical claims and documentation links.
+
+### Phase 3 — Portfolio Engineering
+
+Prepare the improved complete README.
+
+Capture and optimize real screenshots.
+
+Preserve engineering details and release evidence.
+
+### Phase 4 — GitHub Profile
+
+Update the proposed Featured Projects section.
+
+Prepare descriptions and links based on the verified project information.
+
+### Phase 5 — Final Review
+
+Validate all proposed changes and produce a reviewable summary.
+
+Do not perform GitHub write operations without approval.
+
+---
+
+## 13. Expected Final Report
+
+Provide:
+
+1. Repository assessment
+2. Proposed repository names and migration risks
+3. README improvements
+4. Screenshots captured and optimized
+5. Documentation files created or updated
+6. Technical claims verified
+7. Test and link validation results
+8. Security review
+9. Git diff summary
+10. Pending approvals
+
+Clearly separate:
+
+- Completed work
+- Verified findings
+- Assumptions
+- Blockers
+- Planned but unfinished work
+
+## Final Goal
+
+Transform my GitHub profile into a professional, evidence-based engineering portfolio that demonstrates my practical QA Automation, software testing, architecture, CI/CD, and production-quality engineering experience.
+
+**Begin with read-only inspection. Prepare the documentation and screenshot improvements safely. Stop before any commit, push, pull request, merge, repository rename, or deployment, and present the proposed changes for my review.**
